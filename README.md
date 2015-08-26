@@ -29,7 +29,7 @@ then the configurations will be available for extending in your own `.eslintrc`
 ```
 // .eslintrc in your project's root
 {
-    "extends": "fear-core/browser"
+    "extends": "fear-core/browser-config"
 
     // override any rules here...
 }
