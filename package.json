@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/DigitalInnovation/fear-core-eslint-config/issues"
   },
-  "homepage": "https://github.com/DigitalInnovation/fear-core-eslint-config"
+  "homepage": "https://github.com/DigitalInnovation/fear-core-eslint-config",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-mocha": "^2.1.3"
+  }
 }
