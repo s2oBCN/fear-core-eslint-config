@@ -21,7 +21,7 @@ ESLint provides a way to create [multiple shareable configurations](http://eslin
 In order to use the exposed configurations as defaults, first add the package to your project via:
 
 ```
-$ npm install --save fear-core-eslint-config
+$ npm install --save-dev fear-core-eslint-config
 ```
 
 then the configurations will be available for extending in your own `.eslintrc`
