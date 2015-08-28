@@ -1,6 +1,15 @@
 # FEAR Core ESLint configuration
 
-This repository contains the default linting configuration which is recommended to be used in any FEAR projects, in order to avoid runtime errors and tedious, time consuming debugging via accommodating a *common coding style*, also helping developers to understand others' code much quicker.
+This repository contains the default linting configuration which is recommended to be used in any FEAR projects.
+
+It is very important to avoid cryptic runtime errors due to linting issues, followed by tedious, time consuming debugging.
+
+Accommodating a *common coding style* using strict linting rules also helps us developers to understand others' code much quicker.
+
+
+## Default rule set
+
+The default configuration extends the `eslint:recommended` rules which can be found [here](http://eslint.org/docs/rules/). All rules marked as *recommended* are used, there are further rules added to the default Core config, take a look the `common-config.js` for details.
 
 ## Available configurations
 
