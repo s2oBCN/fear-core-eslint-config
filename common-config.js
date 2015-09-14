@@ -65,8 +65,7 @@ module.exports = {
         'no-caller':                [ 2 ],
 
         // Disallow Unused Variables
-        'no-unused-vars':           [ 2, { 'vars': 'all', 'args': 'all' } ],
-
+        'no-unused-vars':           [ 2, { 'vars': 'all', 'args': 'after-used' } ],
         // Disallow Undeclared Variables
         'no-undef':                 [ 2 ],
 
