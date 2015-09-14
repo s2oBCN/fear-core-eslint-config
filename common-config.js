@@ -38,10 +38,10 @@ module.exports = {
         'dot-notation':             [ 2, { 'allowKeywords': true } ],
 
         // Require Camelcase in variable names and object properties, still allows UPPER_CASE format
-        'camelcase':                [2, { 'properties': 'always' } ],
+        'camelcase':                [ 2, { 'properties': 'always' } ],
 
         // Require Following Curly Brace Conventions
-        'curly':                    [2, 'all' ],
+        'curly':                    [ 2, 'all' ],
 
         // Limit Maximum Depth of blocks
         'max-depth':                [ 2, 3 ],
