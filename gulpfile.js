@@ -11,7 +11,7 @@ gulp.task('test', ['lint'], function() {
             globals: {
                 expect: require('chai').expect
             }
-    }));
+        }));
 });
 
 gulp.task('lint', function () {
@@ -24,4 +24,3 @@ gulp.task('lint', function () {
 gulp.task('watch', function() {
     gulp.watch(['*-config.js', 'test/*.spec.js'], ['test']);
 });
-
