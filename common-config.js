@@ -73,7 +73,10 @@ module.exports = {
         'no-redeclare':             [ 2, { 'builtinGlobals': true } ],
 
         // Disallow Bitwise Operators
-        'no-bitwise':               [ 2 ]
+        'no-bitwise':               [ 2 ],
+
+        // Require function definitions in declaration as opposed to expression style
+        'func-style':               [ 2, 'declaration' ]
 
     }
 
