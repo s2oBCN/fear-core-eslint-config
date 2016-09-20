@@ -1,6 +1,6 @@
-# FEAR Core ESLint configuration
+# MNS Core ESLint configuration
 
-This repository contains the default linting configuration which is recommended to be used in any FEAR projects.
+This repository contains the default linting configuration which is recommended to be used in any MNS projects.
 
 It is very important to avoid cryptic runtime errors due to linting issues, followed by tedious, time consuming debugging.
 
@@ -30,7 +30,7 @@ ESLint provides a way to create [multiple shareable configurations](http://eslin
 In order to use the exposed configurations as defaults, first add the package to your project via:
 
 ```
-$ npm install --save-dev fear-core-eslint-config
+$ npm install --save-dev mns-core-eslint-config
 ```
 
 then the configurations will be available for extending in your own `.eslintrc`
@@ -38,7 +38,7 @@ then the configurations will be available for extending in your own `.eslintrc`
 ```
 // .eslintrc in your project's root
 {
-    "extends": "fear-core/browser-config"
+    "extends": "mns-core/browser-config"
 
     // override any rules here...
 }
