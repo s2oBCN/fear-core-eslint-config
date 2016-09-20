@@ -11,7 +11,7 @@ module.exports = {
     rules: {
 
         // Validate Indentation (4 spaces)
-        'indent':                   [ 2, 4, {"SwitchCase": 1} ],
+        'indent':                   [ 2, 4, {'SwitchCase': 1} ],
 
         // Disallow mixed spaces and tabs for indentation
         'no-mixed-spaces-and-tabs': [ 2 ],
