@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-mns-core",
+  "name": "eslint-config-fear-core",
   "version": "1.0.0",
   "description": "Default ESLint config of FEAR Core extending eslint:recommended",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DigitalInnovation/mns-core-eslint-config.git"
+    "url": "https://github.com/DigitalInnovation/fear-core-eslint-config.git"
   },
   "author": "Alex Bowen <alex.bowen@mnscorp.net>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DigitalInnovation/mns-core-eslint-config/issues"
+    "url": "https://github.com/DigitalInnovation/fear-core-eslint-config/issues"
   },
-  "homepage": "https://github.com/DigitalInnovation/mns-core-eslint-config",
+  "homepage": "https://github.com/DigitalInnovation/fear-core-eslint-config",
   "keywords": [
     "eslint",
     "eslintconfig"

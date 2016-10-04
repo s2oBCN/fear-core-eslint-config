@@ -6,7 +6,7 @@ var config = require('../browser-config');
 describe('browser specific config', function () {
 
     it('should extend common config', function() {
-        expect(config.extends).to.equal('mns-core/common-config');
+        expect(config.extends).to.equal('fear-core/common-config');
     });
 
     it('should define browser as the main environment', function() {

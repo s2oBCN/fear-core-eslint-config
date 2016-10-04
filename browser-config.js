@@ -2,7 +2,7 @@
 
 module.exports = {
 
-    extends: 'mns-core/common-config',
+    extends: 'fear-core/common-config',
 
     env: {
         'browser': true

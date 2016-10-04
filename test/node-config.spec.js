@@ -6,7 +6,7 @@ var config = require('../node-config');
 describe('node specific config', function () {
 
     it('should extend common config', function() {
-        expect(config.extends).to.equal('mns-core/common-config');
+        expect(config.extends).to.equal('fear-core/common-config');
     });
 
     it('should define node as the main environment', function() {
